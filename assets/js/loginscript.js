@@ -16,10 +16,11 @@ function ajaxLogIn(){
 	if(!alreadyClicked)
 		loadingBarAnimation();
 	alreadyClicked=true;
+
+	return true;
 }
 
 function logIn(){
-
 	if(!ajaxLogIn()){
 		$("#login_ErrorText").fadeIn();
 	}
