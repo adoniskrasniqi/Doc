@@ -12,6 +12,9 @@ $body = new body("index");
 	<body>
 		<section class="index_Holder">
 				<div class="index_SignIn_holder">
+					<span class="loadingBar" id="loadingBar">
+						<span id="loadingBar_span"></span>
+					</span>
 					<div class="padder">
 						<img src="assets/css/img/1.png">
 						<div>
@@ -31,7 +34,7 @@ $body = new body("index");
 								<input type="password" name="password" autocomplete="off">
 							</div>
 						</section>
-						<p class="login_ErrorText">Emri ose fjalëkalimi i gabuar.</p>
+						<p class="login_ErrorText" id="login_ErrorText">Emri ose fjalëkalimi i gabuar.</p>
 						<div>
 							<a href="#">Keni harruar fjalëkalimin ?</a>
 						</div>
@@ -40,7 +43,7 @@ $body = new body("index");
 							<a href="#">Regjistrohu</a>
 						</div>
 
-						<input type="submit" name="submit" value="Kyçu">
+						<input type="submit" name="submit" value="Kyçu" onclick="logIn()">
 
 					</div>
 				</div>	

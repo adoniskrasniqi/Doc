@@ -18,7 +18,8 @@ class body{
 				<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 				<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 				<link href="'.$this->URL.'assets/css/style.css" rel="stylesheet">
-				<script src="https://code.jquery.com/jquery-1.10.2.js"></script>';
+				<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+				<script src="'.$this->URL.'assets/js/loginscript.js"></script>';
 	}
 
 }
