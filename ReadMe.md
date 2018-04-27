@@ -25,7 +25,17 @@ Doc is a mobile ready website, that will be commercially used by Doctors for:
 >Used by patients, to track their history, medications used and test results.
 >Access notifications and book appointments.
 
+&nbsp;
+### Screenshots:
 
+Default             |  Login button clicked         |  Login Failed
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/adoniskrasniqi/Doc/blob/master/assets/screenshot/1.png)  |
+![](https://github.com/adoniskrasniqi/Doc/blob/master/assets/screenshot/1.gif) |  
+![](https://github.com/adoniskrasniqi/Doc/blob/master/assets/screenshot/1.png)
+
+
+&nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
