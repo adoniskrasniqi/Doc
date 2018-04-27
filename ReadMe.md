@@ -1,10 +1,10 @@
 # Doc
 
 Doc is a mobile ready website, that will be commercially used by Doctors for:
-  - Scheduling
-  - EHR
-  - Billing
-  - Patient Portal
+  - [Scheduling](#scheduling)
+  - [EHR](#ehr)
+  - [Billing](#billing)
+  - [Patient Portal](#patient-portal)
  
 &nbsp;
 #### Scheduling
