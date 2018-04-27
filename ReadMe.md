@@ -1,8 +1,6 @@
 # Doc
 
-Doc is a mobile ready website, that will be commercially used by Doctors.
-
-It will be used for:
+Doc is a mobile ready website, that will be commercially used by Doctors for:
   - Scheduling
   - EHR
   - Billing
