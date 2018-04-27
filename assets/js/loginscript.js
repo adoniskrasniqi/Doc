@@ -1,16 +1,6 @@
+var alreadyClicked = false;
 
 function loadingBarAnimation(){
-
-	/*$("#loadingBar").fadeIn();
-	$("#loadingBar_span").animate({'display':'block'},0)
-	$("#loadingBar_span").animate({'left':'100%'},2000)
-
-	setTimeout( function() {
-		$("#loadingBar_span").css("left","-45%");
-		loadingBarAnimation();
-	}, 2050)*/
-
-
 	$("#loadingBar").fadeIn();
 	$("#loadingBar").animate({'width':'10%'},1500, "swing")
 	
@@ -21,11 +11,11 @@ function loadingBarAnimation(){
 	setTimeout( function() {
 		loadingBarAnimation();
 	}, 3100);
-
 }
 function ajaxLogIn(){
-	loadingBarAnimation();
-	
+	if(!alreadyClicked)
+		loadingBarAnimation();
+	alreadyClicked=true;
 }
 
 function logIn(){
