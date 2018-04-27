@@ -12,6 +12,7 @@ $body = new body("index");
 	<body>
 		<section class="index_Holder">
 				<div class="index_SignIn_holder">
+				<form method="POST">
 					<span class="loadingBar" id="loadingBar"></span>
 					<div class="padder">
 						<img src="assets/css/img/1.png">
@@ -41,9 +42,10 @@ $body = new body("index");
 							<a href="#">Regjistrohu</a>
 						</div>
 
-						<input type="submit" name="submit" value="Kyçu" onclick="logIn()">
+						<input type="submit" name="submit" value="Kyçu" onclick="logIn(); return false;" id="submit_button">
 
 					</div>
+				</form>		
 				</div>	
 		</section>
 	</body>

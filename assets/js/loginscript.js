@@ -24,4 +24,5 @@ function logIn(){
 	if(!ajaxLogIn()){
 		$("#login_ErrorText").fadeIn();
 	}
+	$("#submit_button").attr('disabled',true);
 }
