@@ -30,7 +30,7 @@ Doc is a mobile ready website, that will be commercially used by Doctors for:
 
 Default             |  Login button clicked         |  Login Failed
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/adoniskrasniqi/Doc/blob/master/assets/screenshot/1.png)  | ![](https://github.com/adoniskrasniqi/Doc/blob/master/assets/screenshot/1.gif) | ![](https://github.com/adoniskrasniqi/Doc/blob/master/assets/screenshot/1.png)
+![](https://github.com/adoniskrasniqi/Doc/blob/master/assets/screenshot/1.png)  | ![](https://github.com/adoniskrasniqi/Doc/blob/master/assets/screenshot/2.gif) | ![](https://github.com/adoniskrasniqi/Doc/blob/master/assets/screenshot/3.png)
 
 
 &nbsp;
