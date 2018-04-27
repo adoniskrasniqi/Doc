@@ -2,15 +2,15 @@ var alreadyClicked = false;
 
 function loadingBarAnimation(){
 	$("#loadingBar").fadeIn();
-	$("#loadingBar").animate({'width':'10%'},1500, "swing")
+	$("#loadingBar").animate({'width':'100%'},1000, "swing")
 	
 	setTimeout( function() {
-		$("#loadingBar").animate({'width':'100%'},1500, "swing");
-	}, 1550);
+		$("#loadingBar").animate({'width':'10%'},1000, "swing");
+	}, 1050);
 
 	setTimeout( function() {
 		loadingBarAnimation();
-	}, 3100);
+	}, 2100);
 }
 function ajaxLogIn(){
 	if(!alreadyClicked)

@@ -14,6 +14,7 @@ body{
 	padding:  0;
 	background-color:  rgba(128, 128, 128, 0.03);
 	font-family:  roboto,arial,sans-serif;
+	position:  relative;
 }
 .loadingBar{
     height: 3px;
@@ -27,7 +28,6 @@ body{
 }
 .index_Holder{
     width:  100%;
-    /* background:  gray; */
     display:  table;
     position:  absolute;
     top: 0;
@@ -140,15 +140,27 @@ body{
 
 
 
+/*
+Mobile - Height
+*/
+@media screen and(max-height:608px){
+	.index_Holder{
+		position:relative;
+		margin:25px auto;
+	}
+}
 
 /*
-Mobile
+Mobile - Width
 */
 @media screen and (max-width:480px){
-	.index_Holder{position:  relative;display:  block;}
+	.index_Holder{position:  relative;display:  block;margin:0px;}
 	.index_SignIn_holder{width:  100%;box-shadow:  none;}
 	.index_SignIn_holder .padder{padding: 40px 20px;width:  auto;}
 	.index_SignIn_holder div{width: 100%;}
 	.index_SignIn_holder h3{width:  100%;}
 	.index_SignIn_holder p{width:  100%;}
 }
+
+
+

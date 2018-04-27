@@ -12,9 +12,7 @@ $body = new body("index");
 	<body>
 		<section class="index_Holder">
 				<div class="index_SignIn_holder">
-					<span class="loadingBar" id="loadingBar">
-						<span id="loadingBar_span"></span>
-					</span>
+					<span class="loadingBar" id="loadingBar"></span>
 					<div class="padder">
 						<img src="assets/css/img/1.png">
 						<div>
