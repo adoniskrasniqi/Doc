@@ -14,7 +14,7 @@ Doc is a mobile ready website, that will be commercially used by Doctors for:
 
 &nbsp;
 #### EHR
-> Commonly known as `Electronic Health Records` for demographic representation, test results, medications.
+> Commonly known as [`Electronic Health Record`](https://en.wikipedia.org/wiki/Electronic_health_record) for demographic representation, test results, medications.
 
 &nbsp;
 #### Billing
