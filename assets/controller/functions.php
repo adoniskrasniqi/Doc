@@ -1,9 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 43ebae20688abccae1e5dc3ffaa8307e5811dd4c
 class body{
 
 	private $URL;
@@ -26,51 +22,3 @@ class body{
 	}
 
 }
-
-<<<<<<< HEAD
-
-class Database(){
-
-	private $host;
-	private $username;
-	private $password;
-	private	$dbname;
-
-	function __construct(){
-		$host		=	"localhost";
-		$username	=	"root";
-		$password	=	"root";
-		$dbname		=	"doc";
-	}
-	function PDO_CONNECT(){
-		$dbPDO = new PDO("mysql:host=$host;dbname=$dbname", "$username", "$password");
-		$dbPDO->exec("SET CHARACTER SET utf8");
-		$dbPDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-		$dbPDO->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-		return $dbPDO;
-	}
-
-	function checkUser_password($username, $passowrd){
-
-	}
-}
-
-
-class User{
-
-	private	$username;
-	private	$password;
-	private	$authKey;
-
-	function __construct($username = null,$password = null){
-		$this->username	=	$username;
-		$this->authKey	=	$authKey;
-	}
-
-	function checkUser($username, $password){
-		
-	}
-}
-
-=======
->>>>>>> 43ebae20688abccae1e5dc3ffaa8307e5811dd4c
