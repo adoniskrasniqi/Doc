@@ -1,5 +1,9 @@
 <?php
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 43ebae20688abccae1e5dc3ffaa8307e5811dd4c
 class body{
 
 	private $URL;
@@ -23,6 +27,7 @@ class body{
 
 }
 
+<<<<<<< HEAD
 
 class Database(){
 
@@ -67,3 +72,5 @@ class User{
 	}
 }
 
+=======
+>>>>>>> 43ebae20688abccae1e5dc3ffaa8307e5811dd4c
