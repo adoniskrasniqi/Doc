@@ -24,9 +24,21 @@ class body{
 	}
 
 
-	//Print title of top header in pages like Schedule.php / EHR.php ...
+	//Print title of top header
  	public function print_topHeaderTitle(){
+ 		echo '<h3 class="topHeader_title">';
  		echo $this->business_name." - ".$this->page;
+ 		echo '</h3>';
+	}
+
+	//Print left menu items
+	public function print_leftMenuItems(){
+		echo '
+			<a href="#" class="left_menuItem"><span></span>Kryefaqja</a>
+			<a href="#" class="left_menuItem"><span></span>Itinerari</a>
+			<a href="#" class="left_menuItem"><span></span>Regjistri i Shëndetit</a>
+			<a href="#" class="left_menuItem"><span></span>Faturimi</a>
+			<a href="#" class="left_menuItem"><span></span>Portali i pacientit</a>';
 	}
 
 }

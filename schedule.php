@@ -13,8 +13,8 @@ $body = new body("Schedule","Doc");
 	</head>
 	<body>
 
-		<section class="top_header"><h3 class="topHeader_title"><?php $body->print_topHeaderTitle(); ?></h3></section>
-		<section class="left_menu"></section>
+		<section class="top_header"><?php $body->print_topHeaderTitle(); ?></h3></section>
+		<section class="left_menu"><?php $body->print_leftMenuItems(); ?></section>
 		<section class="main_Holder"></section>
 	</body>
 </html>

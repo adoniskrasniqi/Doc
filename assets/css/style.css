@@ -172,7 +172,31 @@ body{
     box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.14);
 }
 .topHeader_title{padding-left:  15px;padding-bottom: 0;padding-top: 16px;font-size: 24px;font-weight: 400;line-height: 1.3333;margin-bottom: 0;margin-top: 0;color: #2196F3;}
-
+.left_menuItem{
+	position:relative;
+    display:  block;
+    text-decoration:  none;
+    padding: 20px 15px;
+    color: #607D8B;
+    box-shadow: 0px 2px 0px 0 rgba(0, 0, 0, 0.04);
+	transition:  .3s;
+}
+.left_menuItem span{
+	position:absolute;
+	top:0;
+	bottom:  0;
+	left:  0;
+	background: #2196F3;
+	z-index: -1;
+	width: 0%;
+	transition: .3s;
+}
+.left_menuItem:hover{
+	color:white;
+}
+.left_menuItem:hover span{
+	width:100%
+}
 
 
 
