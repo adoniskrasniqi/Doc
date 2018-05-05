@@ -197,7 +197,27 @@ body{
 .left_menuItem:hover span{
 	width:100%
 }
-
+.leftMenuItem_child{
+    box-shadow:  0px 2px 0px 0 rgba(0, 0, 0, 0.04);
+    overflow:  hidden;
+    display: block;
+    height:  0px;
+}
+.leftMenuItem_child a{
+	display: block;
+	text-decoration: none;
+	margin: 0px 0px 0px 30px;
+	padding: 15px 5px;
+	color: #607D8B;
+	font-size:  14px;
+	border-bottom: 1px solid #f1f1f1;
+	border-left: 1px solid #f1f1f1;
+	transition:.3s;
+}
+.leftMenuItem_child a:hover{
+	color:#000;
+	background-color:rgba(241, 241, 241, 0.76);
+}
 
 
 

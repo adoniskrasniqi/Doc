@@ -20,7 +20,8 @@ class body{
 				<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 				<link href="'.$this->URL.'assets/css/style.css" rel="stylesheet">
 				<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-				<script src="'.$this->URL.'assets/js/loginscript.js"></script>';
+				<script src="'.$this->URL.'assets/js/loginscript.js"></script>
+				<script src="'.$this->URL.'assets/js/script.js"></script>';
 	}
 
 
@@ -35,9 +36,17 @@ class body{
 	public function print_leftMenuItems(){
 		echo '
 			<a href="#" class="left_menuItem"><span></span>Kryefaqja</a>
-			<a href="#" class="left_menuItem"><span></span>Itinerari</a>
+			<a href="#" class="left_menuItem" onclick="showLeftMenuItem(1)"><span></span>Itinerari</a>
+				<div class="leftMenuItem_child" id="leftMenuItem_child_1">
+					<a href="#">Shto</a>
+					<a href="#">Shiko itinerarin</a>
+				</div>
 			<a href="#" class="left_menuItem"><span></span>Regjistri i Shëndetit</a>
-			<a href="#" class="left_menuItem"><span></span>Faturimi</a>
+			<a href="#" class="left_menuItem" onclick="showLeftMenuItem(3)"><span></span>Faturimi</a>
+				<div class="leftMenuItem_child" id="leftMenuItem_child_3">
+					<a href="#">Shto faturen</a>
+					<a href="#">Shiko gjendjen</a>
+				</div>
 			<a href="#" class="left_menuItem"><span></span>Portali i pacientit</a>';
 	}
 
