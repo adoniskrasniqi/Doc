@@ -1,5 +1,5 @@
 <?php
-require "assets/controller/functions.php";
+require "assets/view/body.php";
 
 $body = new body("index");
 

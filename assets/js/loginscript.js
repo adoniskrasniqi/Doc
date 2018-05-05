@@ -1,13 +1,19 @@
-
+//Redirect function
+function redirect(){
+	setTimeout(function(){
+		window.location.href = "schedule.php";
+	}, 2600);
+}
 //Ajax call to check if username & password is correct
 function check_user(){
-
+	
 }
 
 //Animate loading bar in login form
 
 var alreadyClicked = false;
 function loadingBarAnimation(){
+
 	$("#loadingBar").fadeIn();
 	$("#loadingBar").animate({'width':'100%'},1000, "swing")
 	
@@ -30,7 +36,6 @@ function ajaxLogIn(){
 		loadingBarAnimation();
 		alreadyClicked=true;
 	}
-	return check_user();
 }
 
 //On Login button clicked
@@ -51,4 +56,7 @@ function logIn(){
 		$("#login_ErrorText").fadeIn();
 	}
 	$("#submit_button").attr('disabled',true);
+
+	//Redirect to Schedule.php
+	redirect();
 }
