@@ -166,7 +166,6 @@ body{
     position:  absolute;
     left: 215px;
     top: 75px;
-    bottom:  10px;
     right:  10px;
     /* background:  gray; */
     box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.14);
@@ -218,10 +217,182 @@ body{
 	color:#000;
 	background-color:rgba(241, 241, 241, 0.76);
 }
+.main_HolderTitle{
+    margin:  0px;
+    padding:  15px;
+    color: #2196F3;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333;
+}
+.mainHolder_itemHolder{
+    padding:  15px;
+    /* text-align:  center; */
+}
+.mainHolder_element{
+    display:  inline-block;
+    width:  45%;
+    margin: 0px 25px;
+    text-align:  left;
+    padding:  15px 0px;
+    border-bottom:  1px solid #f1f1f1;
+}
+.mainHolder_elementTitle{
+    display:  block;
+    font-size:  14px;
+    font-weight: 400;
+    color: gray;
+}
+.mainHolder_elementDate{
+    width:  175px;
+    height: 21px;
+    padding: 3px 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.mainHolder_elementHour{
+    width: 45px;
+    height:  21px;
+    padding: 3px 5px;
+    font-size: 16px;
+    text-align:center;
+    font-weight:400;
+}
+.mainHolder_elementTimePoints{}
+.mainHolder_elementPatients{
+    padding: 3px;
+    width: 189px;
+    height: 31px;
+}
+.mainHolder_elementPatients option{
+	font-size: 15px;
+}
+.mainHolder_elementNewPatientButton{display: block;border: 1px solid #4285f4;background-color: #4285f4;padding: 8px 16px;width: 185px;border-radius: 3px;color: #ffffffeb;font-size: 14px;font-weight: 400;-webkit-tap-highlight-color: transparent;direction: ltr;cursor: pointer;box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);transition: .2s;}
+.mainHolder_elementNewPatientButton:active{
+	box-shadow:0px 2px 10px rgba(0,0,0,0.54);
+	background-color:#325cc7;
+	border:1px solid #325cc7;
+}
+.mainHolder_elementComment{
+    width: 95%;
+    height: 205px;
+    resize: none;
+    font-weight:  400;
+    font-size:  18px;
+    padding:  5px;
+}
+.mainHolder_buttonHolder{
+    display:  block;
+    text-align:  center;
+}
+.mainHolder_buttonHolder button{
+    display: inline-block;
+    padding: 8px 16px;
+    width: 135px;
+    border-radius: 3px;
+    color: #ffffffeb;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-tap-highlight-color: transparent;
+    direction: ltr;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    transition: .2s;
+    margin:0px 5px;	
+}
+.buttonHolder_SaveButton{
+	background-color:#4CAF50;
+	border:1px solid #4caf50;
+}
+.buttonHolder_SaveButton:active{	
+	box-shadow:0px 2px 10px rgba(0,0,0,0.54);
+	background-color:#388E3C;
+	border:1px solid #388E3C;
+}
+.buttonHolder_DiscardButton{
+	background-color:#F44336;
+	border:1px solid #F44336;
+}
+.buttonHolder_DiscardButton:active{
+	box-shadow:0px 2px 10px rgba(0,0,0,0.54);
+	background-color:#D32F2F;
+	border:1px solid #D32F2F;
+}
 
 
 
+/*Datepicker*/
 
+#ui-datepicker-div{
+    background: white;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.18);
+    border: 1px solid #4CAF50;
+    margin: 0px 10px;
+    width: auto;
+    max-width: 90%;
+    display:  none;
+}
+.ui-corner-all{
+	background: #4CAF50;
+    color: white;
+    text-align:center;
+}
+.ui-datepicker-prev{
+	display:inline-block;
+	width:49%;
+	text-align:center;
+	border-bottom:1px solid white;
+	cursor:pointer;
+	transition:.2s;
+}
+.ui-datepicker-next{
+	display:inline-block;
+	width:49%;
+	text-align:center;
+	border-left:1px solid white;
+	border-bottom:1px solid white;
+	cursor:pointer;
+	transition:.2s;
+}
+.ui-datepicker-prev:hover{
+	background:rgba(255, 255, 255, 0.2);
+}
+.ui-datepicker-next:hover{
+	background:rgba(255, 255, 255, 0.2);
+}
+.ui-datepicker-title{
+	padding:5px;
+}
+.ui-datepicker-week-end{
+	/* color:gray; */
+}
+.ui-datepicker-calendar{
+	width:100%;
+	text-align:center;
+}
+.ui-datepicker-calendar thead:first-child{
+	color:#4CAF50;
+}
+
+.ui-datepicker-calendar tbody td a{
+	border: 1px solid #4CAF50;
+	width:30px;
+	padding:6px 0px;
+	display:inline-block;
+	text-decoration:none;
+	color: #4CAF50;
+	font-weight:  400;
+	transition:.2s;
+	background: rgba(63, 180, 162, 0.02);
+	text-shadow: 0px 0px 20px white;
+	font-size:14px;
+}
+.ui-datepicker-calendar tbody a:hover{
+	background:#4CAF50;
+	color:white;
+}
+
+/* /Datepicker */
 
 /*
 Mobile - Height

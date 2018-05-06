@@ -38,7 +38,7 @@ class body{
 			<a href="#" class="left_menuItem"><span></span>Kryefaqja</a>
 			<a href="#" class="left_menuItem" onclick="showLeftMenuItem(1)"><span></span>Itinerari</a>
 				<div class="leftMenuItem_child" id="leftMenuItem_child_1">
-					<a href="#">Shto</a>
+					<a href="'.$this->URL.'schedule/AddSchedule.php">Shto</a>
 					<a href="#">Shiko itinerarin</a>
 				</div>
 			<a href="#" class="left_menuItem"><span></span>Regjistri i Shëndetit</a>
