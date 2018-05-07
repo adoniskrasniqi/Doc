@@ -28,9 +28,9 @@ $body = new body("Schedule","Doc");
 
 				<div class="mainHolder_element">
 					<span class="mainHolder_elementTitle">Ora</span>
-					<input type="text" class="mainHolder_elementHour" name="">
+					<input type="text" class="mainHolder_elementHour" name="" id="time_H">
 					<span class="mainHolder_elementTimePoints">:</span>
-					<input type="text" class="mainHolder_elementHour" name="">
+					<input type="text" class="mainHolder_elementHour" name="" id="time_M">
 				</div>
 			</div>
 
@@ -51,7 +51,7 @@ $body = new body("Schedule","Doc");
 				</div>	
 
 				<div class="mainHolder_element">	
-					<button class="mainHolder_elementNewPatientButton">Pacient i ri</button>
+					<button class="mainHolder_elementNewPatientButton" onclick="redirect_toAddUser()">Pacient i ri</button>
 				</div>
 			</div>
 
