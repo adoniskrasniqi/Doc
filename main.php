@@ -2,7 +2,7 @@
 require "assets/view/body.php";
 
 
-$body = new body("Schedule","Doc");
+$body = new body("Main","Doc");
 
 
 ?>

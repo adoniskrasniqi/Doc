@@ -1,7 +1,7 @@
 //Redirect function
 function redirect(){
 	setTimeout(function(){
-		window.location.href = "schedule.php";
+		window.location.replace("main.php");
 	}, 2600);
 }
 //Ajax call to check if username & password is correct
