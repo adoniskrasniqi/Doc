@@ -318,6 +318,26 @@ body{
 	background-color:#D32F2F;
 	border:1px solid #D32F2F;
 }
+.mainHolder_ScheduleHolder{margin: 5px 15px;background:  white;padding: 15px 7.5px;}
+
+.mainHolder_ScheduleHolder:last-child{margin-bottom:25px;border-bottom:  1px solid gray}
+.scheduleHolderTitle{
+    margin:  0;
+    font-weight:  400;
+    font-size:  18px;
+    color: gray;
+}
+.shceduleHolderDateTime{
+    padding:  0px 7.5px;
+}
+.scheduleHolderDate{
+    font-size:  13px;
+    font-weight:  400;
+}
+.scheduleHolderTime{}
+.scheduleHolderComment{
+    margin:  0;
+}
 
 
 

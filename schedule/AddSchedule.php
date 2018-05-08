@@ -16,7 +16,7 @@ $body = new body("Schedule","Doc");
 		<section class="top_header"><?php $body->print_topHeaderTitle(); ?></h3></section>
 		<section class="left_menu"><?php $body->print_leftMenuItems(); ?></section>
 		<section class="main_Holder" id="main_Holder">
-			<h2 class="main_HolderTitle">Itinerari</h2>
+			<h2 class="main_HolderTitle">Shto takim</h2>
 
 			<!-- Date/Time -->
 			<div class="mainHolder_itemHolder">
@@ -72,22 +72,22 @@ $body = new body("Schedule","Doc");
 				</div>
 			</div>	
 		</section>
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
-		<script type="text/javascript">
-$.datepicker.regional['al'] = {clearText: 'Fshij', clearStatus: '',
-    closeText: 'Mbyll', closeStatus: 'Mbyll',
-    prevText: '< Prapa', prevStatus: 'Shiko muajin e kaluar',
-    nextText: 'Para >', nextStatus: 'Shiko muajin tjetër',
-    currentText: 'Aktual', currentStatus: 'Shiko muajin aktual',
-    monthNames: ['Janar','Shkurt','Mars','Prill','Maj','Qershor',
-    'Korrik','Gusht','Shtator','Tetor','Nëntor','Dhjetor'],
-    monthNamesShort: ['Jan','Fév','Mar','Avr','Mai','Jun',
-    'Jul','Aoû','Sep','Oct','Nov','Déc'],
-    dayNamesShort: ['E Hëne','E Martë','E Mërkurë','E Enjte','E Premte','E Shtunë','E Diel'],
-    dayNamesMin: ['H','M','M','E','P','Sh','D'],
-    dateFormat: 'dd-mm-yy',};
-$.datepicker.setDefaults($.datepicker.regional['al']);
-$("#date").datepicker();
-</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+	<script type="text/javascript">
+	$.datepicker.regional['al'] = {clearText: 'Fshij', clearStatus: '',
+	    closeText: 'Mbyll', closeStatus: 'Mbyll',
+	    prevText: '< Prapa', prevStatus: 'Shiko muajin e kaluar',
+	    nextText: 'Para >', nextStatus: 'Shiko muajin tjetër',
+	    currentText: 'Aktual', currentStatus: 'Shiko muajin aktual',
+	    monthNames: ['Janar','Shkurt','Mars','Prill','Maj','Qershor',
+	    'Korrik','Gusht','Shtator','Tetor','Nëntor','Dhjetor'],
+	    monthNamesShort: ['Jan','Fév','Mar','Avr','Mai','Jun',
+	    'Jul','Aoû','Sep','Oct','Nov','Déc'],
+	    dayNamesShort: ['E Hëne','E Martë','E Mërkurë','E Enjte','E Premte','E Shtunë','E Diel'],
+	    dayNamesMin: ['H','M','M','E','P','Sh','D'],
+	    dateFormat: 'dd-mm-yy',};
+	$.datepicker.setDefaults($.datepicker.regional['al']);
+	$("#date").datepicker();
+	</script>
 	</body>
 </html>
