@@ -47,7 +47,7 @@ class body{
 					<a href="#">Shto faturen</a>
 					<a href="#">Shiko gjendjen</a>
 				</div>
-			<a href="#" class="left_menuItem"><span></span>Portali i pacientit</a>
+			<a href="'.$this->URL.'portal/Patients.php" class="left_menuItem"><span></span>Portali i pacientit</a>
 			<a href="'.$this->URL.'" class="left_menuItem"><span></span>Dilni</a>';
 	}
 
