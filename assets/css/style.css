@@ -163,6 +163,7 @@ body{
 	box-shadow: 1px 0px 2px 0 rgba(0,0,0,0.14);
 }
 .main_Holder{
+    max-width: 1440px;
     position:  absolute;
     left: 215px;
     top: 75px;
@@ -318,9 +319,9 @@ body{
 	background-color:#D32F2F;
 	border:1px solid #D32F2F;
 }
-.mainHolder_ScheduleHolder{margin: 5px 15px;background:  white;padding: 15px 7.5px;}
+.mainHolder_ScheduleHolder{margin: 5px 15px;background:  white;padding: 15px 7.5px;cursor:  pointer;}
 
-.mainHolder_ScheduleHolder:last-child{margin-bottom:25px;border-bottom:  1px solid gray}
+.mainHolder_ScheduleHolder:last-child{margin-bottom:25px;cursor: pointer;}
 .scheduleHolderTitle{
     margin:  0;
     font-weight:  400;
@@ -329,14 +330,23 @@ body{
 }
 .shceduleHolderDateTime{
     padding:  0px 7.5px;
+    /* text-align:  right; */
 }
 .scheduleHolderDate{
     font-size:  13px;
     font-weight:  400;
+    padding-right: 10px;
+    color:  gray;
 }
-.scheduleHolderTime{}
+.scheduleHolderTime{
+    color: #2196f3;
+}
 .scheduleHolderComment{
     margin:  0;
+    font-weight:  400;
+    color:  gray;
+    font-size:  14px;
+    padding:  3px 7.5px;
 }
 
 
