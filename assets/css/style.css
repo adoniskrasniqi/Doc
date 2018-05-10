@@ -163,7 +163,6 @@ body{
 	box-shadow: 1px 0px 2px 0 rgba(0,0,0,0.14);
 }
 .main_Holder{
-    max-width: 1440px;
     position:  absolute;
     left: 215px;
     top: 75px;
@@ -225,6 +224,9 @@ body{
     font-size: 24px;
     font-weight: 400;
     line-height: 1.3333;
+}
+.main_HolderTitle span{
+    color: rgba(71,82,93,.8);
 }
 .mainHolder_itemHolder{
     padding:  15px;

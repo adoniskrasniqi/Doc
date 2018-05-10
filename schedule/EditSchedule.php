@@ -16,7 +16,7 @@ $body = new body("Schedule","Doc");
 		<section class="top_header"><?php $body->print_topHeaderTitle(); ?></section>
 		<section class="left_menu"><?php $body->print_leftMenuItems(); ?></section>
 		<section class="main_Holder" id="main_Holder">
-			<h2 class="main_HolderTitle">Takimi me Thalia Cobb</h2>
+			<h2 class="main_HolderTitle">Takimi me <span>Thalia Cobb</span></h2>
 
 			<!-- Date/Time -->
 			<div class="mainHolder_itemHolder">
