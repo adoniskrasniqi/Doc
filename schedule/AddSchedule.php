@@ -23,14 +23,14 @@ $body = new body("Schedule","Doc");
 				
 				<div class="mainHolder_element">
 					<span class="mainHolder_elementTitle">Data</span>
-					<input type="text" class="mainHolder_elementDate" name="" id="date">
+					<input type="text" class="mainHolder_elementDate" name="" id="date" value="<?php echo date('d-m-y'); ?>">
 				</div>
 
 				<div class="mainHolder_element">
 					<span class="mainHolder_elementTitle">Ora</span>
-					<input type="text" class="mainHolder_elementHour" name="" id="time_H">
+					<input type="text" class="mainHolder_elementHour" name="" id="time_H" value="<?php echo date('G'); ?>">
 					<span class="mainHolder_elementTimePoints">:</span>
-					<input type="text" class="mainHolder_elementHour" name="" id="time_M">
+					<input type="text" class="mainHolder_elementHour" name="" id="time_M" value="<?php echo date('i'); ?>">
 				</div>
 			</div>
 

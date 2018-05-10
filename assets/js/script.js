@@ -3,8 +3,8 @@
 //Hide other child items
 var lastChildItemId=0;
 function showLeftMenuItem(id){
-	$("#leftMenuItem_child_"+lastChildItemId).animate({height:"0px"},'fast');
-	$("#leftMenuItem_child_"+id).animate({height:"96px"},'slow');
+	$("#leftMenuItem_child_"+lastChildItemId).animate({height:"0px"},300);
+	$("#leftMenuItem_child_"+id).animate({height:"96px"},300);
 	lastChildItemId = id;
 }
 

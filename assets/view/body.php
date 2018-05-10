@@ -44,7 +44,7 @@ class body{
 			<a href="#" class="left_menuItem"><span></span>Regjistri i Shëndetit</a>
 			<a href="#" class="left_menuItem" onclick="showLeftMenuItem(3)"><span></span>Faturimi</a>
 				<div class="leftMenuItem_child" id="leftMenuItem_child_3">
-					<a href="#">Shto faturen</a>
+					<a href="'.$this->URL.'billing/AddBilling.php">Shto faturen</a>
 					<a href="#">Shiko gjendjen</a>
 				</div>
 			<a href="'.$this->URL.'portal/Patients.php" class="left_menuItem"><span></span>Portali i pacientit</a>
