@@ -58,9 +58,21 @@ $body = new body("Billing","Doc");
 			<!-- Comment -->
 			<div class="mainHolder_itemHolder">
 				<div class="mainHolder_element">
+					<span class="mainHolder_elementTitle">Cmimi</span>
+					<input type="text" class="mainHolder_elementDate" name="" id="price" onkeyup="billing_calculator()" autocomplete="off">
+				</div>	
+				<div class="mainHolder_element">
+					<span class="mainHolder_elementTitle">Zbritje (%)</span>
+					<input type="text" class="mainHolder_elementDate" name="" id="price_sale" onkeyup="billing_calculator()" autocomplete="off">					
+				</div>
+				<span class="mainHolder_elementTitle" style="padding:0px 0px 30px 25px;display: block;font-size: 15px " id="final_price">Cmimi final: 0.00 €</span>
+
+				<div class="mainHolder_element">
 					<span class="mainHolder_elementTitle">Komenti</span>
 					<textarea class="mainHolder_elementComment"></textarea>
-				</div>	
+				</div>
+
+				
 			</div>
 
 

@@ -60,7 +60,7 @@ $body = new body("Schedule","Doc");
 				<div class="mainHolder_element">
 					<span class="mainHolder_elementTitle">Komenti</span>
 					<textarea class="mainHolder_elementComment"></textarea>
-				</div>	
+				</div>
 			</div>
 
 

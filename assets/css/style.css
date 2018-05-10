@@ -244,7 +244,7 @@ body{
     display:  block;
     font-size:  14px;
     font-weight: 400;
-    color: gray;
+    color: rgb(128, 128, 128);
 }
 .mainHolder_elementDate{
     width:  175px;
