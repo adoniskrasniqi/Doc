@@ -85,7 +85,7 @@ $body = new body("Billing","Doc");
 			<div class="mainHolder_itemHolder">
 				<div class="mainHolder_buttonHolder">
 					<button class="buttonHolder_SaveButton">Ruaj</button>
-					<button class="buttonHolder_DiscardButton">Anulo</button>
+					<button class="buttonHolder_DiscardButton">Fshij</button>
 				</div>
 			</div>	
 		</section>
