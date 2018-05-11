@@ -355,11 +355,28 @@ body{
     font-size:  14px;
     padding:  3px 7.5px;
 }
+.bills_Payment{
+	padding-left: 7.5px;
+	font-size: 19px;
+}
+.paymentComplete{
+    color: #4caf50;
+}
+.paymentIncomplete{
+    color: #fd5e60;
+}
+.firstTypeDivider{
+	border:0;
+	border-top: 1px solid #ededed;
+	height: 1px;
+	padding: 0px;
+}
+
+
 
 
 
 /*Datepicker*/
-
 #ui-datepicker-div{
     background: white;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.18);
