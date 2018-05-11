@@ -72,6 +72,18 @@ $body = new body("Billing","Doc");
 					<textarea class="mainHolder_elementComment"></textarea>
 				</div>
 
+
+
+				<div class="mainHolder_element" style="float: left;">
+					<span class="bills_Payment paymentComplete">
+						<input type="radio" name="status" value="t" checked> Fatura u pagua
+					</span>	
+					<br>
+  					<span class="bills_Payment paymentIncomplete">
+						<input type="radio" name="status" value="f"> Fatura nuk u pagua
+					</span>
+				</div>
+				 
 				
 			</div>
 
