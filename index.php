@@ -41,7 +41,7 @@ $body = new body("index");
 						<div>
 							<a href="#">Regjistrohu</a>
 						</div>
-
+ 
 						<input type="submit" name="submit" value="Kyçu" onclick="logIn(); return false;" id="submit_button">
 
 					</div>
