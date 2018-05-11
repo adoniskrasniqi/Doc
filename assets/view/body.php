@@ -35,20 +35,18 @@ class body{
 	//Print left menu items
 	public function print_leftMenuItems(){
 		echo '
-			<a href="'.$this->URL.'main.php" class="left_menuItem"><span></span>Kryefaqja</a>
 			<a href="javascript:void(0)" class="left_menuItem" onclick="showLeftMenuItem(1)"><span></span>Itinerari</a>
 				<div class="leftMenuItem_child" id="leftMenuItem_child_1">
 					<a href="'.$this->URL.'schedule/AddSchedule.php">Shto</a>
 					<a href="'.$this->URL.'schedule/Schedules.php">Shiko itinerarin</a>
 				</div>
-			<a href="#" class="left_menuItem"><span></span>Regjistri i Shëndetit</a>
 			<a href="#" class="left_menuItem" onclick="showLeftMenuItem(3)"><span></span>Faturimi</a>
 				<div class="leftMenuItem_child" id="leftMenuItem_child_3">
 					<a href="'.$this->URL.'billing/AddBilling.php">Shto faturen</a>
 					<a href="'.$this->URL.'billing/Bills.php">Shiko gjendjen</a>
 				</div>
+			<a href="#" class="left_menuItem"><span></span>Regjistri i Shëndetit</a>
 			<a href="'.$this->URL.'portal/Patients.php" class="left_menuItem"><span></span>Portali i pacientit</a>
 			<a href="'.$this->URL.'" class="left_menuItem"><span></span>Dilni</a>';
 	}
-
 }
