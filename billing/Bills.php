@@ -18,7 +18,53 @@ $body = new body("Billing","Doc");
 		<section class="main_Holder" id="main_Holder">
 			<h2 class="main_HolderTitle">Gjendja financiare</h2>
 
+			<!-- Date/Time -->
+			<div class="mainHolder_itemHolder">
+				<div class="mainHolder_element">
+					<span class="mainHolder_elementTitle">Të paguara</span>
+					<span class="bills_Payment paymentComplete">1024.00 €</span>
+				</div>
+				<div class="mainHolder_element">
+					<span class="mainHolder_elementTitle">Të papaguara</span>
+					<span class="bills_Payment paymentIncomplete">25.00 €</span>
+				</div>
+			</div>
+
+			<hr class="firstTypeDivider">
+
+			<h2 class="main_HolderTitle">Faturat</h2>
+			<!-- Bill -->
+			<div class="mainHolder_ScheduleHolder" >
+				<h4 class="scheduleHolderTitle">Smith Bryan</h4>
+				<p class="scheduleHolderComment">162358569547</p>	
+				<span class="bills_Payment paymentComplete">25.00 €</span>
+			</div>
+			<div class="mainHolder_ScheduleHolder" >
+				<h4 class="scheduleHolderTitle">Smith Bryan</h4>
+				<p class="scheduleHolderComment">162358569547</p>	
+				<span class="bills_Payment paymentComplete">15.00 €</span>
+			</div>
+			<div class="mainHolder_ScheduleHolder" >
+				<h4 class="scheduleHolderTitle">Smith Bryan</h4>
+				<p class="scheduleHolderComment">162358569547</p>	
+				<span class="bills_Payment paymentComplete">10.00 €</span>
+			</div>
+			<div class="mainHolder_ScheduleHolder" >
+				<h4 class="scheduleHolderTitle">Smith Bryan</h4>
+				<p class="scheduleHolderComment">162358569547</p>	
+				<span class="bills_Payment paymentComplete">35.00 €</span>
+			</div>
+			<div class="mainHolder_ScheduleHolder" >
+				<h4 class="scheduleHolderTitle">Bryan Smith</h4>
+				<p class="scheduleHolderComment">162358569547</p>	
+				<span class="bills_Payment paymentIncomplete">25.00 €</span>
+			</div>
+
 		</section>
+
+
+
+
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
 	<script type="text/javascript">
 	$.datepicker.regional['al'] = {clearText: 'Fshij', clearStatus: '',
