@@ -19,25 +19,25 @@ $body = new body("Pacientet","Doc");
 			<h2 class="main_HolderTitle">Pacientet</h2>
 
 			<!-- Patient -->
-			<div class="mainHolder_ScheduleHolder" onclick="window.location.href = '../schedule/Schedules.php?patient=162358569547' ">
+			<div class="mainHolder_ScheduleHolder" >
 				<h4 class="scheduleHolderTitle">Bryan Smith</h4>
 				<p class="scheduleHolderComment">162358569547</p>	
 			</div>
 
 			<!-- Patient -->
-			<div class="mainHolder_ScheduleHolder" onclick="window.location.href = '../schedule/Schedules.php?patient=162358569547' ">
+			<div class="mainHolder_ScheduleHolder" >
 				<h4 class="scheduleHolderTitle">Smith Bryan</h4>
 				<p class="scheduleHolderComment">162358569547</p>	
 			</div>
 
 			<!-- Patient -->
-			<div class="mainHolder_ScheduleHolder" onclick="window.location.href = '../schedule/Schedules.php?patient=162358569547' ">
+			<div class="mainHolder_ScheduleHolder" >
 				<h4 class="scheduleHolderTitle">Bryan Bryan</h4>
 				<p class="scheduleHolderComment">162358569547</p>	
 			</div>
 
 			<!-- Patient -->
-			<div class="mainHolder_ScheduleHolder" onclick="window.location.href = '../schedule/Schedules.php?patient=162358569547' ">
+			<div class="mainHolder_ScheduleHolder" >
 				<h4 class="scheduleHolderTitle">Smith Smith</h4>
 				<p class="scheduleHolderComment">162358569547</p>	
 			</div>
