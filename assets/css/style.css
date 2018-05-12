@@ -358,6 +358,7 @@ body{
 .bills_Payment{
 	padding-left: 7.5px;
 	font-size: 19px;
+	color:  gray;
 }
 .paymentComplete{
     color: #4caf50;
@@ -371,7 +372,12 @@ body{
 	height: 1px;
 	padding: 0px;
 }
-
+.chartContainer{
+	width: 300px;
+	height: 340px;
+	padding-left: 25px;
+	overflow:  hidden;
+}
 
 
 
