@@ -34,27 +34,27 @@ $body = new body("Billing","Doc");
 
 			<h2 class="main_HolderTitle">Faturat</h2>
 			<!-- Bill -->
-			<div class="mainHolder_ScheduleHolder" >
+			<div class="mainHolder_ScheduleHolder" onclick="window.location.href = 'EditBilling.php'">
 				<h4 class="scheduleHolderTitle">Smith Bryan</h4>
 				<p class="scheduleHolderComment">162358569547</p>	
 				<span class="bills_Payment paymentComplete">25.00 €</span>
 			</div>
-			<div class="mainHolder_ScheduleHolder" >
+			<div class="mainHolder_ScheduleHolder" onclick="window.location.href = 'EditBilling.php'">
 				<h4 class="scheduleHolderTitle">Smith Bryan</h4>
 				<p class="scheduleHolderComment">162358569547</p>	
 				<span class="bills_Payment paymentComplete">15.00 €</span>
 			</div>
-			<div class="mainHolder_ScheduleHolder" >
+			<div class="mainHolder_ScheduleHolder" onclick="window.location.href = 'EditBilling.php'">
 				<h4 class="scheduleHolderTitle">Smith Bryan</h4>
 				<p class="scheduleHolderComment">162358569547</p>	
 				<span class="bills_Payment paymentComplete">10.00 €</span>
 			</div>
-			<div class="mainHolder_ScheduleHolder" >
+			<div class="mainHolder_ScheduleHolder" onclick="window.location.href = 'EditBilling.php'">
 				<h4 class="scheduleHolderTitle">Smith Bryan</h4>
 				<p class="scheduleHolderComment">162358569547</p>	
 				<span class="bills_Payment paymentComplete">35.00 €</span>
 			</div>
-			<div class="mainHolder_ScheduleHolder" >
+			<div class="mainHolder_ScheduleHolder" onclick="window.location.href = 'EditBilling.php'">
 				<h4 class="scheduleHolderTitle">Bryan Smith</h4>
 				<p class="scheduleHolderComment">162358569547</p>	
 				<span class="bills_Payment paymentIncomplete">25.00 €</span>
