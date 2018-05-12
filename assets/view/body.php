@@ -45,7 +45,7 @@ class body{
 					<a href="'.$this->URL.'billing/AddBilling.php">Shto faturen</a>
 					<a href="'.$this->URL.'billing/Bills.php">Shiko gjendjen</a>
 				</div>
-			<a href="#" class="left_menuItem"><span></span>Regjistri i Shëndetit</a>
+			<a href="'.$this->URL.'EHR/EHR.php" class="left_menuItem"><span></span>Regjistri i Shëndetit</a>
 			<a href="'.$this->URL.'portal/Patients.php" class="left_menuItem"><span></span>Portali i pacientit</a>
 			<a href="'.$this->URL.'" class="left_menuItem"><span></span>Dilni</a>';
 	}
