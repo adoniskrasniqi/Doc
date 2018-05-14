@@ -38,7 +38,7 @@ $body = new body("Patient","Doc");
 						<canvas id="genderChart" width="250" height="250"></canvas>
 					</div>
 			</div>
-			<hr>
+			<hr class="firstTypeDivider">
 
 			<!-- City -->
 			<div class="mainHolder_itemHolder">
@@ -49,6 +49,14 @@ $body = new body("Patient","Doc");
 					</div>
 			</div>
 
+			<!-- Age -->
+			<div class="mainHolder_itemHolder">
+					<div class="chartContainer">
+						<span class="mainHolder_elementTitle">Ndarja sipas moshës</span>
+						<br>
+						<canvas id="ageChart" width="250" height="250"></canvas>
+					</div>
+			</div>
 
 		</section>
 
@@ -66,14 +74,16 @@ function shuffle(arr) {
 var colorArray = shuffle(['#f44336','#9c27b0','#3f51b5','#2196f3','#03a9f4','#00bcd4','#009688','#4caf50','#e91e63','#8bc34a','#cddc39','#ffeb3b','#ffc107','#ff9800','#ff5722','#795548','#9e9e9e','#607d8b']);
 
 //Gender Array
-var genderArray = ["Gjinia Femrore", "Gjinia Mashkullore"];
+var genderArray = ["Gjinia Mashkullore", "Gjinia Femrore"];
 var genderData = ["105","76"];
 
 //City Array
 var cityArray = ["Prishtinë", "Prizren", "Mitrovicë", "Pejë", "Gjakovë", "Ferizaj"];
 var cityData = ["47","12","28","16","1","9"]
 
-
+//Age Array
+var ageArray = ["0-5","6-10","11-15","16-20","21-30","31-40","41-50","51-60","61+"];
+var ageData = ["1","3","9","4","11","27","20","5","3"];
 
 //Gender Chart
 var ctx = document.getElementById("genderChart").getContext('2d');
@@ -83,7 +93,7 @@ var genderChart = new Chart(ctx, {
         labels: genderArray,
         datasets: [{
 
-            data: [12, 19],
+            data: genderData,
             backgroundColor: colorArray,
             borderColor: colorArray,
             borderWidth: 1
@@ -99,7 +109,7 @@ var cityChart = new Chart(ctx, {
     	label:'',
         labels: cityArray,
         datasets: [{
-            data: [37,41,17,9,12,26],
+            data: cityData,
             backgroundColor: colorArray,
         }]
     },
@@ -108,7 +118,25 @@ var cityChart = new Chart(ctx, {
             display: false
          },
     }
+});
 
+
+//Age Chart
+var ctx = document.getElementById("ageChart").getContext('2d');
+var ageChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ageArray,
+        datasets: [{
+            data: ageData,
+            backgroundColor: colorArray,
+        }]
+    },
+    options:{
+    	legend: {
+            display: false
+         },
+    }
 });
 </script>
 
