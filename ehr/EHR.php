@@ -58,10 +58,19 @@ $body = new body("Patient","Doc");
 					</div>
 			</div>
 
+
+			<!-- Appointments -->
+			<div class="mainHolder_itemHolder">
+					<div class="chartContainer">
+						<span class="mainHolder_elementTitle">Ndarja sipas nderhyrjeve</span>
+						<br>
+						<canvas id="appoChart" width="250" height="250"></canvas>
+					</div>
+			</div>
+
 		</section>
 
 	<!-- Chart JS-->
-	
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>	
 <script>
 //Shuffle array function	
@@ -85,59 +94,42 @@ var cityData = ["47","12","28","16","1","9"]
 var ageArray = ["0-5","6-10","11-15","16-20","21-30","31-40","41-50","51-60","61+"];
 var ageData = ["1","3","9","4","11","27","20","5","3"];
 
-//Gender Chart
-var ctx = document.getElementById("genderChart").getContext('2d');
-var genderChart = new Chart(ctx, {
-    type: 'pie',
-    data: {
-        labels: genderArray,
-        datasets: [{
+//Appointment Array
+var appoArray = ["1","2-4","5-7","8+"];
+var appoData = ["103","53","16","4"];
 
-            data: genderData,
-            backgroundColor: colorArray,
-            borderColor: colorArray,
-            borderWidth: 1
-        }]
-    }
-});
+
+function chartCreator(canvasId, t,l,d,le){
+	var ctx = document.getElementById(canvasId).getContext('2d');
+	var ctxChart = new Chart(ctx, {
+	    type: t,
+	    data: {
+	        labels: l,
+	        datasets: [{
+	            data: d,
+	            backgroundColor: colorArray,
+	        }]
+	    },
+	    options:{
+	    	legend: {
+	            display: le
+	         },
+	    }
+	});	
+}
+
+//Gender Chart
+chartCreator("genderChart","pie",genderArray,genderData,true);
 
 //City Chart
-var ctx = document.getElementById("cityChart").getContext('2d');
-var cityChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-    	label:'',
-        labels: cityArray,
-        datasets: [{
-            data: cityData,
-            backgroundColor: colorArray,
-        }]
-    },
-    options:{
-    	legend: {
-            display: false
-         },
-    }
-});
-
+chartCreator("cityChart","bar",cityArray,cityData,false);
 
 //Age Chart
-var ctx = document.getElementById("ageChart").getContext('2d');
-var ageChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ageArray,
-        datasets: [{
-            data: ageData,
-            backgroundColor: colorArray,
-        }]
-    },
-    options:{
-    	legend: {
-            display: false
-         },
-    }
-});
+chartCreator("ageChart","bar",ageArray,ageData,false);
+
+//Appointment Chart
+chartCreator("appoChart","bar",appoArray,appoData,false);
+
 </script>
 
 
